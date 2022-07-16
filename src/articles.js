@@ -17,6 +17,7 @@ articleTag.forEach(tag => tag.addEventListener('click', () => {
         article.classList.remove('dont-show')
         if (tag.innerHTML == 'Afghanistan' && article.children[1].children[2].innerHTML != 'Afghanistan') {
             article.classList.add('dont-show')
+            articleNav.classList.toggle('flex-nav')
         } else if (tag.innerHTML == 'Honduras' && article.children[1].children[2].innerHTML != 'Honduras') {
             article.classList.add('dont-show')
         } else if (tag.innerHTML == 'Kosovo' && article.children[1].children[2].innerHTML != 'Kosovo') {
