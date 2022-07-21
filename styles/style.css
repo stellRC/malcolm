@@ -218,6 +218,10 @@ h1 {
     font-size: var(--quote-author-font);
 }
 
+.bio-left p {
+    font-size: var(--bio-font-sm);
+}
+
 /* #endregion */
 
 /* #region Nav-Type */
@@ -225,6 +229,7 @@ h1 {
 .header-nav {
     background-color: var(--header-color);
     backdrop-filter: var(--header-blur);
+    -webkit-backdrop-filter: var(--header-blur);
 }
 
 .mobile-header a,
@@ -241,6 +246,7 @@ h1 {
     /* background: #cdcdcd; */
     background-color: antiquewhite;
     backdrop-filter: var(--header-blur);
+    -webkit-backdrop-filter: var(--header-blur);
 }
 
 
@@ -267,6 +273,7 @@ h1 {
 .book-purchase {
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: var(--header-blur);
 }
 
 .book-purchase-btn a {
@@ -276,6 +283,7 @@ h1 {
 .book-purchase-btn {
     background-color: var(--header-color);
     backdrop-filter: var(--header-blur);
+    -webkit-backdrop-filter: var(--header-blur);
     color: black;
 }
 
@@ -292,6 +300,7 @@ h1 {
 .book-purchase:hover {
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: var(--header-blur);
 }
 
 /* button a {
@@ -390,6 +399,7 @@ h1 {
     width: 60ch;
     height: auto;
     backdrop-filter: .5;
+    -webkit-backdrop-filter: var(--header-blur);
     padding: 1rem;
     position: absolute;
     top: 35vh;
@@ -562,7 +572,6 @@ h1 {
 
 .bio-left p {
     word-wrap: wrap;
-    font-size: var(--bio-font-sm);
     max-width: var(--bio-mobile);
 }
 
@@ -575,6 +584,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
     background-color: var(--header-color);
     backdrop-filter: var(--header-blur);
+    -webkit-backdrop-filter: var(--header-blur);
     width: 90vw;
     margin: 0 auto;
     gap: 1rem;
@@ -873,6 +883,7 @@ h1 {
     justify-content: space-evenly;
     /* background-color: var(--header-color);
     backdrop-filter: var(--header-blur); */
+    /* -webkit-backdrop-filter: var(--header-blur); */
 
     padding: 2rem;
     box-shadow: inset 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -895,6 +906,7 @@ textarea {
     width: 30vw;
     background-color: var(--header-color);
     backdrop-filter: var(--header-blur);
+    -webkit-backdrop-filter: var(--header-blur);
     color: rgb(24, 22, 22);
     outline: none;
 }
@@ -1074,6 +1086,7 @@ textarea {
     .header-top {
         background-color: var(--header-color);
         backdrop-filter: var(--header-blur);
+        -webkit-backdrop-filter: var(--header-blur);
         box-shadow: inset 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     }
 
@@ -1087,6 +1100,7 @@ textarea {
     .mobile-header {
         background-color: transparent;
         backdrop-filter: none;
+        -webkit-backdrop-filter: var(--header-blur);
     }
 
     .hero-quote {
@@ -1111,6 +1125,7 @@ textarea {
         align-items: flex-start;
         background-color: transparent;
         backdrop-filter: none;
+        -webkit-backdrop-filter: var(--header-blur);
         transform: translate(0);
         padding: 0 2rem;
         width: fit-content;
@@ -1152,6 +1167,7 @@ textarea {
         margin-left: -8vw;
         background-color: var(--header);
         backdrop-filter: var(--header-blur);
+        -webkit-backdrop-filter: var(--header-blur);
         /* border-radius:  0 0 32px 32px; */
         margin-top: 1rem;
     }
