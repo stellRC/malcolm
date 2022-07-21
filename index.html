@@ -11,7 +11,7 @@
 </head>
 <body class="flex body-flex">
 
-    <section class="header-top flex"  id="main">
+    <section class="header-top flex" id="main" >
         <section class="mobile-header">
             <div class="hamburger">
                 <span class="hamburger-span"></span>
@@ -19,37 +19,41 @@
             </div>
             <section class="header-left">
                 <h2>
-                    <a href="index.html">J. Malcolm Garcia</a>
+                    <a class="underline" href="index.html">J. Malcolm Garcia</a>
                 </h2>
             </section>
         </section>
-        <nav class="header-right">
+        <nav class="header-right" >
             <ul class="header-nav flex">
                 <li>
-                    <a class="nav-link" href="#bio">Bio</a>
+                    <a class="nav-link underline" href="#bio">Bio</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="books.html">Books</a>
+                    <a class="nav-link underline" href="books.html">Books</a>
                 </li>
                 <li class="dropdown">
-                    <a class="nav-link" href="articles.html">Writing</a>
-                    <ul class="dropdown-list">
-                        <li>
-                            <a href="articles.html#reporting">Reporting</a>
-                        </li>
-                        <li>
-                            <a href="articles.html#essays">Essays</a>
-                        </li>
-                        <li>
-                            <a href="articles.html#fiction">Fiction</a>
-                        </li>
-                    </ul>
+                    <a class="nav-link underline" href="articles.html#articlesMain">Writing</a>
+                    <div class="list-container">
+                        <ul class="dropdown-list">
+                            <li>
+                                <a class="underline" href="articles.html#articlesMain">Reporting</a>
+                            </li>
+                            <span class="article-bars">||</span>
+                            <li>
+                                <a class="underline" href="articles.html#essays">Essays</a>
+                            </li>
+                            <span class="article-bars">||</span>
+                            <li>
+                                <a class="underline" href="articles.html#fiction">Fiction</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.html#publisher">Publishers</a>
+                    <a class="nav-link underline" href="index.html#publisher">Publishers</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link underline" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -60,8 +64,8 @@
         </section>
     </header>
     <main class="home-main">
-        <section class="container-bio flex" id="bio">
-            <header class="container-header">
+        <section class="container-bio flex" >
+            <header class="container-header" id="bio">
                 <h2>Bio</h2>
             </header>
             <section class="bio-left flex">
@@ -87,7 +91,9 @@
                 <section class="upcoming-right flex">
                     <section class="upcoming-date flex">
                         <span>Available Aug 30, 2022</span>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Most-Dangerous-Unmerciful-Stories-Afghanistan/dp/164421203X">Preorder</a>
+                        <button class="book-purchase-btn" id="preorder">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Most-Dangerous-Unmerciful-Stories-Afghanistan/dp/164421203X">Preorder</a>
+                        </button>
                     </section>
                     <section class="books-reviews" id="afghan-review">
                         <ul class="book-review-list">
@@ -103,49 +109,55 @@
                     </section> 
             </section>
             <ul class="books-grid">
-                <li class="book-outer background-image flex" id="khaarijee">
-                    <section class="book-inner-bottom">
-                        <button>
+                <li class="books-grid-img">
+                    <img loading="lazy" src="img/books/khaarijee.jpg" alt="khaarijee">
+                    <section class="book-grid-purchase flex">
+                        <button class="book-purchase-btn">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B003U8A2VG">Amazon</a>
                         </button>
                     </section>
                 </li>
-                <li class="book-outer background-image flex" id="warsLeaveBehind">
-                    <section class="book-inner-bottom">
-                        <button>
+                <li class="books-grid-img">
+                    <img loading="lazy" src="img/books/wars-leave-behind.jpg" alt="Wars Leave Behind">
+                    <section class="book-grid-purchase flex">
+                        <button class="book-purchase-btn">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B00K58U5XY">Amazon</a>
                         </button>
                     </section>
                 </li>
-                <li class="book-outer background-image flex" id="withoutCountry">
-                    <section class="book-inner-bottom">
-                        <button>
+                <li class="books-grid-img">
+                    <img loading="lazy" src="img/books/without-a-country.jpg" alt="Without a Country">
+                    <section class="book-grid-purchase flex">
+                        <button class="book-purchase-btn">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B071GW6GG4">Amazon</a>
                         </button>
                     </section>
                 </li>
-                <li class="book-outer background-image flex" id="katrina">
-                   
-                    <section class="book-inner-bottom">
-                        <button>
+                <li class="books-grid-img">
+                    <img loading="lazy" src="img/books/katrina.jpg" alt="Katrina">
+                    <section class="book-grid-purchase flex">
+                        <button class="book-purchase-btn">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B076QJNXBM">Amazon</a>
                         </button>
                     </section>
                 </li>
-                <li class="book-outer background-image flex" id="fruitGrief">
-                    <section class="book-inner-bottom">
-                        <button>
+                <li class="books-grid-img">
+                    <img loading="lazy" src="img/books/fruit-grief.jpg" alt="Fruit Grief">
+                    <section class="book-grid-purchase flex">
+                        <button class="book-purchase-btn">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/product/B07LDTSL73">Amazon</a>
                         </button>
                     </section>
                 </li>
-                <li class="book-outer background-image flex" id="differentWar">
-                    <section class="book-inner-bottom">
-                        <button>
+                <li class="books-grid-img">
+                    <img loading="lazy" src="img/books/different-kind-of-war.jpg" alt="different war">
+                    <section class="book-grid-purchase flex">
+                        <button class="book-purchase-btn">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Different-Kind-War-Encounters-Central/dp/1953236189">Amazon</a>
                         </button>
                     </section>
                 </li>
+
                 <!-- <li class="book-outer background-image" id="timeServed">
                     <section class="book-inner-top">
                         <i class="quotes"></i>
@@ -189,21 +201,6 @@
                             <img loading="lazy" class="publisher-image" src="img/publisher/output-onlinepngtools (9).png" alt="Smithsonian Magazine">
                         </a>
                     </li>
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/apple valley.png" alt="Apple Valley">
-                        </a>
-                    </li> -->
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/bio stories-edit.jpg" alt="bioStories">
-                        </a>
-                    </li> -->
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/fourth-genre.png" alt="Fourth Genre">
-                        </a>
-                    </li> -->
                     <li class="publisher-item">
                         <a class="publisher-link" href="">
                             <img loading="lazy" class="publisher-image" src="img/publisher/output-onlinepngtools (7).png" alt="Global Post">
@@ -214,31 +211,16 @@
                             <img loading="lazy" class="publisher-image" src="img/publisher/guernica-png.png" alt="Guernica">
                         </a>
                     </li>
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/latterly.avif" alt="Latterly">
-                        </a>
-                    </li> -->
                     <li class="publisher-item">
                         <a target="_blank" rel="noopener noreferrer" class="publisher-link" href="https://www.vqronline.org/people/j-malcolm-garcia">
                             <img loading="lazy" class="publisher-image" src="img/publisher/vqr-png.png" alt="Virginia Quarterly Review">
                         </a>
                     </li>
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/massreview.png" alt="">
-                        </a>
-                    </li> -->
                     <li class="publisher-item">
                         <a target="_blank" rel="noopener noreferrer" class="publisher-link" href="https://www.thesunmagazine.org/contributors/j-malcolm-garcia">
                             <img loading="lazy" class="publisher-image" src="img/publisher/the sun-svg.svg" alt="The Sun">
                         </a>
                     </li>
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/mcsweeney.jpg" alt="">
-                        </a>
-                    </li> -->
                     <li class="publisher-item">
                         <a target="_blank" rel="noopener noreferrer" class="publisher-link" href="https://www.ncronline.org/authors/j-malcolm-garcia-1">
                             <img loading="lazy" class="publisher-image" src="img/publisher/ncr.png" alt="National Catholic Reporter">
@@ -269,33 +251,11 @@
                             <img loading="lazy" class="publisher-image" src="img/publisher/output-onlinepngtools (5).png" alt="The Washington Times">
                         </a>
                     </li>
-                 
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/superstition.jpg" alt="">
-                        </a>
-                    </li> -->
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/war2.jpg" alt="">
-                        </a>
-                    </li> -->
                     <li class="publisher-item">
                         <a target="_blank" rel="noopener noreferrer" class="publisher-link" href="https://www.motherjones.com/author/j-malcolm-garcia/">
                             <img loading="lazy" class="publisher-image" src="img/publisher/motherjones-png.png" alt="Mother Jones">
                         </a>
                     </li>
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/uptown.jpg" alt="">
-                        </a>
-                    </li> -->
-                    <!-- <li class="publisher-item">
-                        <a class="publisher-link" href="">
-                            <img loading="lazy" class="publisher-image" src="img/publisher/oxford.png" alt="">
-                        </a>
-                    </li> -->
-  
                 </ul>
             </section>
         </section>
@@ -357,3 +317,7 @@
                             </section>
                         </li>
  -->
+
+ <!-- <div class="mobile-flex flex">
+
+ </div> -->
