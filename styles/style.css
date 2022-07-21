@@ -1045,8 +1045,8 @@ textarea {
 
 @media (min-height: 800px) {
     .article-nav:hover {
-        height: 65vh;;
-        width: 25vw;
+        height: 60vh;;
+        width: 20vw;
     }
 }
 
