@@ -5,8 +5,9 @@ const reverseBtn = document.querySelector('.reverse')
 const articleList = document.querySelectorAll('.article-list')
 const articleTag = document.querySelectorAll('.tag')
 const articles = document.querySelectorAll('.report-article')
-const openNav = document.querySelector('.open-nav')
+const openNav = document.querySelector('.mainop')
 const articleNav = document.querySelector('.article-nav')
+const articleMainNav = document.querySelector('.article-main-nav')
 
 reverseBtn.addEventListener('click', () => {
     articleList.forEach(list => list.append(...Array.from(list.childNodes).reverse()));
@@ -50,11 +51,14 @@ articleTag.forEach(tag => tag.addEventListener('click', () => {
         } else if (tag.innerHTML == 'All') {
             article.classList.remove('dont-show')
         }
+
+ 
     })
    
  
 }))
 
 openNav.addEventListener('click', () => {
-    articleNav.classList.toggle('flex-nav')
+    articleMainNav.classList.toggle('flex-nav')
+
 })
