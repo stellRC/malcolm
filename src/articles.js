@@ -15,38 +15,37 @@ reverseBtn.addEventListener('click', () => {
 articleTag.forEach(tag => tag.addEventListener('click', () => {
     articles.forEach(article => {
         article.classList.remove('dont-show')
-        if (tag.innerHTML == 'Afghanistan' && article.children[1].children[2].innerHTML != 'Afghanistan') {
+        if (tag.innerHTML == 'Afghanistan' && article.children[1].children[0].children[2].innerHTML != 'Afghanistan') {
             article.classList.add('dont-show')
-            articleNav.classList.toggle('flex-nav')
-        } else if (tag.innerHTML == 'Honduras' && article.children[1].children[2].innerHTML != 'Honduras') {
+        } else if (tag.innerHTML == 'Honduras' && article.children[1].children[0].children[2].innerHTML != 'Honduras') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Kosovo' && article.children[1].children[2].innerHTML != 'Kosovo') {
+        } else if (tag.innerHTML == 'Kosovo' && article.children[1].children[0].children[2].innerHTML != 'Kosovo') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Haiti' && article.children[1].children[2].innerHTML != 'Haiti') {
+        } else if (tag.innerHTML == 'Haiti' && article.children[1].children[0].children[2].innerHTML != 'Haiti') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Chad' && article.children[1].children[2].innerHTML != 'Chad') {
+        } else if (tag.innerHTML == 'Chad' && article.children[1].children[0].children[2].innerHTML != 'Chad') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Argentina' && article.children[1].children[2].innerHTML != 'Argentina') {
+        } else if (tag.innerHTML == 'Argentina' && article.children[1].children[0].children[2].innerHTML != 'Argentina') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Mexico' && article.children[1].children[2].innerHTML != 'Mexico') {
+        } else if (tag.innerHTML == 'Mexico' && article.children[1].children[0].children[2].innerHTML != 'Mexico') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'N. Ireland' && article.children[1].children[2].innerHTML != 'Northern Ireland') {
+        } else if (tag.innerHTML == 'N. Ireland' && article.children[1].children[0].children[2].innerHTML != 'N. Ireland') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Pakistan' && article.children[1].children[2].innerHTML != 'Pakistan') {
+        } else if (tag.innerHTML == 'Pakistan' && article.children[1].children[0].children[2].innerHTML != 'Pakistan') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Iraq' && article.children[1].children[2].innerHTML != 'Iraq') {
+        } else if (tag.innerHTML == 'Iraq' && article.children[1].children[0].children[2].innerHTML != 'Iraq') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Egypt' && article.children[1].children[2].innerHTML != 'Egypt') {
+        } else if (tag.innerHTML == 'Egypt' && article.children[1].children[0].children[2].innerHTML != 'Egypt') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'USA' && article.children[1].children[2].innerHTML != 'USA') {
+        } else if (tag.innerHTML == 'USA' && article.children[1].children[0].children[2].innerHTML != 'USA') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Syria' && article.children[1].children[2].innerHTML != 'Syria') {
+        } else if (tag.innerHTML == 'Syria' && article.children[1].children[0].children[2].innerHTML != 'Syria') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Turkey' && article.children[1].children[2].innerHTML != 'Turkey') {
+        } else if (tag.innerHTML == 'Turkey' && article.children[1].children[0].children[2].innerHTML != 'Turkey') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Guatemala' && article.children[1].children[2].innerHTML != 'Guatemala') {
+        } else if (tag.innerHTML == 'Guatemala' && article.children[1].children[0].children[2].innerHTML != 'Guatemala') {
             article.classList.add('dont-show')
-        } else if (tag.innerHTML == 'Vietnam' && article.children[1].children[2].innerHTML != 'Vietnam') {
+        } else if (tag.innerHTML == 'Vietnam' && article.children[1].children[0].children[2].innerHTML != 'Vietnam') {
             article.classList.add('dont-show')
         } else if (tag.innerHTML == 'All') {
             article.classList.remove('dont-show')
