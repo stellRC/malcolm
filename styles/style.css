@@ -820,7 +820,7 @@ h1 {
 
 .article-nav:hover {
     /* height: 615px; */
-    height: 70vh;
+    height: 75vh;
     /* width: 170px; */
     width: 40vw;
 
@@ -1045,7 +1045,7 @@ textarea {
 
 @media (min-height: 800px) {
     .article-nav:hover {
-        height: 60vh;;
+        height: 60vh;
         width: 20vw;
     }
 }
