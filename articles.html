@@ -19,37 +19,41 @@
             </div>
             <section class="header-left">
                 <h2>
-                    <a target="_blank" rel="noopener noreferrer" href="index.html">J. Malcolm Garcia</a>
+                    <a class="underline" href="index.html">J. Malcolm Garcia</a>
                 </h2>
             </section>
         </section>
         <nav class="header-right">
             <ul class="header-nav flex">
                 <li>
-                    <a class="nav-link" href="index.html#bio">Bio</a>
+                    <a class="nav-link underline" href="index.html#bio">Bio</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="books.html">Books</a>
+                    <a class="nav-link underline" href="books.html">Books</a>
                 </li>
                 <li class="dropdown">
-                    <a class="nav-link" href="articles.html">Writing</a>
-                    <ul class="dropdown-list">
-                        <li>
-                            <a href="articles.html#reporting">Reporting</a>
-                        </li>
-                        <li>
-                            <a href="articles.html#essays">Essays</a>
-                        </li>
-                        <li>
-                            <a href="articles.html#fiction">Fiction</a>
-                        </li>
-                    </ul>
+                    <a class="nav-link underline" href="articles.html#articlesMain">Writing</a>
+                    <div class="list-container">
+                        <ul class="dropdown-list">
+                            <li>
+                                <a class="underline" href="articles.html#articlesMain">Reporting</a>
+                            </li>
+                            <span class="article-bars">||</span>
+                            <li>
+                                <a class="underline" href="articles.html#essays">Essays</a>
+                            </li>
+                            <span class="article-bars">||</span>
+                            <li>
+                                <a class="underline" href="articles.html#fiction">Fiction</a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.html#publisher">Publishers</a>
+                    <a class="nav-link underline" href="index.html#publisher">Publishers</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="index.html#contact">Contact</a>
+                    <a class="nav-link underline" href="index.html#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -60,68 +64,71 @@
             <li>
                 <button class="mainop">+</button>
             </li>
+            <ul>
+                <li>
+                    <button class="reverse">&#8645; Date</button>
+                </li>
             <li>
-                <button class="tag">All</button>
+                <a href="#top" class="tag">All</a>
             </li>
             <li>
-                <button class="tag">Afghanistan</button>
+                <!-- <button href="articles.html" class="tag">Afghanistan</button> -->
+                <a href="#top" class="tag">Afghanistan</a>
             </li>
             <li>
-                <button class="tag">Argentina</button>
+                <a href="#top" class="tag">Argentina</a>
             </li>
             <li>
-                <button class="tag">Chad</button>
+                <a href="#top" class="tag">Chad</a>
             </li>
             <li>
-                <button class="tag">Egypt</button>
+                <a href="#top" class="tag">Egypt</a>
             </li>
             <li>
-                <button class="tag">Haiti</button>
+                <a href="#top" class="tag">Haiti</a>
             </li>
             <li>
-                <button class="tag second">Honduras</button>
+                <a href="#top" class="tag second">Honduras</a>
             </li>
             <li>
-                <button class="tag">Kosovo</button>
+                <a href="#top" class="tag">Kosovo</a>
             </li>
             <li>
-                <button class="tag">Mexico</button>
+                <a href="#top" class="tag">Mexico</a>
             </li>
             <li>
-                <button class="tag">N. Ireland</button>
+                <a href="#top" class="tag">N. Ireland</a>
             </li>
             <li>
-                <button class="tag">Pakistan</button>
+                <a href="#top" class="tag">Pakistan</a>
             </li>
             <li>
-                <button class="tag">Syria</button>
+                <a href="#top" class="tag">Syria</a>
             </li>
             <li>
-                <button class="tag">Turkey</button>
+                <a href="#top" class="tag">Turkey</a>
             </li>
             <li>
-                <button class="tag">USA</button>
+                <a href="#top" class="tag">USA</a>
             </li>
             <li>
-                <button class="tag">Vietnam</button>
+                <a href="#top" class="tag">Vietnam</a>
             </li>
-            <li>
-                <button class="reverse">&#8645; Date</button>
-            </li>
+ 
         </ul>
     
    
     </section>
     <main class="articles-main">
+        <header id="articlesMain">
+            <!-- <h1>Articles</h1> -->
+        </header>
         <section id="reporting">
-            <header>
+            <header id="top">
                 <h2>Reporting</h2>
             </header>
             <ul class="article-reporting-list">
                 <li>
-                    <!-- <header>
-                        <h3>Afghanistan</h3>
-                    </header> -->
                     <ul class="article-list article-country-list">
                         <li class="report-article">
                             <section class="article-title">
@@ -129,17 +136,15 @@
                                     <a target="_blank" rel="noopener noreferrer" href="https://www.vqronline.org/dispatch/curfew-afghanistan-2002">Curfew</a>
                                 </h4>
                             </section>
-                            <section class="article-publication">
-                                
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-date">March 15, 2004</span>
+                            <section class="article-publication"> 
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-date">March 15, 2004</span>
                             </section>
-                            <!-- <section class="article-country">
-                                <span>Afghanistan</span>
-                            </section> -->
                             <section class="article-exerpt">
                                 <p>Cursing, I slam down the receiver and run out of the house, shout for Bro. He stands by his car still parked on the street. Arms folded, he turns to me, a stocky young man with black hair and a heavy mustache. He wears a leather jacket and jeans. He used to lift weights and box. Despite a potbelly he could kick my ass.</p>
                             </section>
@@ -151,9 +156,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Haiti</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Haiti</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">March 23, 2006</span>
                             </section>
@@ -168,9 +175,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Missouri Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Missouri Review</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">June 01, 2006</span>
                             </section>
@@ -185,9 +194,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Fourth Genre</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Honduras</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Fourth Genre</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Honduras</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Nov 02, 2006</span>
                             </section>
@@ -203,9 +214,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Chad</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Chad</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Dec 20, 2006</span>
                             </section>
@@ -220,9 +233,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Argentina</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Argentina</span>
+                                </div> 
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Sept 03, 2007</span>
                             </section>
@@ -237,9 +252,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Missouri Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Missouri Review</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div> 
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Nov 03, 2007</span>
                             </section>
@@ -254,9 +271,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">West Branch</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">West Branch</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Spring-Summer 2008</span>
                             </section>
@@ -271,9 +290,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Jan 01, 2008</span>
                             </section>
@@ -288,9 +309,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">The Washington Times</span>
-                                 <span class="article-bars">||</span>
-                                <span class="article-country">Kosovo</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">The Washington Times</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Kosovo</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">May 03, 2009</span>
                             </section>
@@ -305,9 +328,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Global Post</span>
-                                 <span class="article-bars">||</span>
-                                <span class="article-country">Kosovo</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Global Post</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Kosovo</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">April 14, 2009</span>
                             </section>
@@ -322,9 +347,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                 <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Summer 2009</span>
                             </section>
@@ -339,9 +366,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Smithsonian Magazine</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Smithsonian Magazine</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Sept 15, 2009</span>
                             </section>
@@ -356,9 +385,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Oct 04, 2009</span>
                             </section>
@@ -373,9 +404,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Mexico</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Mexico</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Oct 05, 2009</span>
                             </section>
@@ -390,9 +423,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">The Washington Times</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Northern Ireland</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">The Washington Times</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">N. Ireland</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Dec 29, 2009</span>
                             </section>
@@ -407,9 +442,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                 <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                   <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Spring 2010</span>
                             </section>
@@ -420,13 +457,15 @@
                         <li class="report-article">
                             <section class="article-title">
                                 <h4>
-                                    <a target="_blank" rel="noopener noreferrer" href="">Here Everything is Poison</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://legacy.pulitzercenter.org/reporting/here-everything-poison">Here Everything is Poison</a>
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review </span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Kosovo</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR </span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Kosovo</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Fall 2010</span>
                             </section>
@@ -441,9 +480,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Pakistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Pakistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Oct 15, 2010</span>
                             </section>
@@ -458,9 +499,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Jan 01, 2011</span>
                             </section>
@@ -475,9 +518,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Mother Jones</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Mother Jones</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Winter 2011</span>
                             </section>
@@ -492,9 +537,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">McSweeney's</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Northern Ireland</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">McSweeney's</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">N. Ireland</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">April 28, 2011</span>
                             </section>
@@ -509,9 +556,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Virginia Quarterly Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Iraq</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">VQR</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Iraq</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Spring 2011</span>
                             </section>
@@ -526,9 +575,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Egypt</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Egypt</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">June 01, 2011</span>
                             </section>
@@ -543,9 +594,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Aug 16, 2011</span>
                             </section>
@@ -560,9 +613,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Oxford American</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Iraq</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Oxford American</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Iraq</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Aug 24, 2011</span>
                             </section>
@@ -577,9 +632,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">typeInvetigations</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">typeInvetigations</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Nov 10, 2011</span>
                             </section>
@@ -594,9 +651,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Dec 05, 2012</span>
                             </section>
@@ -611,9 +670,12 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">New Letters</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Egypt</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">New Letters</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Egypt</span>
+                                </div>
+
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Winter 2012</span>
                             </section>
@@ -628,9 +690,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Oxford American</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Oxford American</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Aug 27, 2012</span>
                             </section>
@@ -645,9 +709,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Superstition Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Superstition Review</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>                               
                                 <span class="article-bars">||</span>
                                 <span class="article-date">2012</span>
                             </section>
@@ -680,9 +746,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Syria</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Syria</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">April 01, 2013</span>
                             </section>
@@ -697,9 +765,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>                           
                                 <span class="article-bars">||</span>
                                 <span class="article-date">April 15, 2014</span>
                             </section>
@@ -714,9 +784,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Turkey</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Turkey</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">May 01, 2013</span>
                             </section>
@@ -731,9 +803,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Tampa Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Turkey</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Tampa Review</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Turkey</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">September 07, 2014</span>
                             </section>
@@ -748,9 +822,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">May 15, 2015</span>
                             </section>
@@ -765,9 +841,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Tampa Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Tampa Review</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Oct 22, 2015</span>
                             </section>
@@ -782,9 +860,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Dec 01, 2015</span>
                             </section>
@@ -799,9 +879,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">National Catholic Reporter</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Honduras</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">National Catholic Reporter</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Honduras</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Mar 16, 2016</span>
                             </section>
@@ -816,9 +898,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">National Catholic Reporter</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Mexico</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">National Catholic Reporter</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Mexico</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Mar 21, 2016</span>
                             </section>
@@ -833,9 +917,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">National Catholic Reporter</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">National Catholic Reporter</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Aug 16, 2016</span>
                             </section>
@@ -850,9 +936,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">National Catholic Reporter</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Guatemala</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">National Catholic Reporter</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Guatemala</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Sep 14, 2016</span>
                             </section>
@@ -867,9 +955,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">National Catholic Reporter</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Guatemala</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">National Catholic Reporter</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Guatemala</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Sep 28, 2016</span>
                             </section>
@@ -884,9 +974,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">National Catholic Reporter</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">National Catholic Reporter</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Jan 11, 2017</span>
                             </section>
@@ -902,9 +994,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">March 06, 2017</span>
                             </section>
@@ -919,9 +1013,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Salon</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Salon</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Sept 12, 2017</span>
                             </section>
@@ -936,9 +1032,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">War Literature & the Art</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">War Literature & the Art</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">2018</span>
                             </section>
@@ -953,9 +1051,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">June 28, 2018</span>
                             </section>
@@ -972,9 +1072,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">San Diego Uptown News</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">San Diego Uptown News</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">April 19, 2019</span>
                             </section>
@@ -989,9 +1091,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">San Diego Uptown News</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">San Diego Uptown News</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">May 31, 2019</span>
                             </section>
@@ -1006,9 +1110,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">San Diego Uptown News</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">San Diego Uptown News</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Dec 13, 2019</span>
                             </section>
@@ -1023,9 +1129,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">bioStories Magazine</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">bioStories Magazine</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">2019</span>
                             </section>
@@ -1040,9 +1148,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">bioStories Magazine</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">bioStories Magazine</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">2019</span>
                             </section>
@@ -1057,9 +1167,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">Guernica</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">Guernica</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">July 20, 2020</span>
                             </section>
@@ -1074,9 +1186,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">San Diego Uptown News</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">San Diego Uptown News</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Jan 08, 2021</span>
                             </section>
@@ -1091,9 +1205,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">bioStories</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">bioStories</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">May 2021</span>
                             </section>
@@ -1108,9 +1224,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">The Massachusetts Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">The Massachusetts Review</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Aug 03, 2021</span>
                             </section>
@@ -1125,9 +1243,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">The Massachusetts Review</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Afghanistan</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">The Massachusetts Review</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Afghanistan</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">Oct 28, 2021</span>
                             </section>
@@ -1142,9 +1262,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">War, Literature & the Arts</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">Vietnam</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">War, Literature & the Arts</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">Vietnam</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">2021</span>
                             </section>
@@ -1159,9 +1281,11 @@
                                 </h4>
                             </section>
                             <section class="article-publication">
-                                <span class="article-publisher">San Diego Uptown News</span>
-                                <span class="article-bars">||</span>
-                                <span class="article-country">USA</span>
+                                <div class="mobile-flex flex">
+                                    <span class="article-publisher">San Diego Uptown News</span>
+                                    <span class="article-bars">||</span>
+                                    <span class="article-country">USA</span>
+                                </div>
                                 <span class="article-bars">||</span>
                                 <span class="article-date">June 3, 2022</span>
                             </section>
@@ -1233,7 +1357,7 @@
                         </h4>
                     </section>
                     <section class="article-publication">
-                        <span class="article-publisher">Virginia Quarterly Review</span>
+                        <span class="article-publisher">VQR</span>
                         <span class="article-bars">||</span>
                         <span class="article-date">Summer 2008</span>
                     </section>
@@ -1453,19 +1577,3 @@
     </main>
 </body>
 </html>
-
-<!-- <li>
-    <section class="article-title">
-        <h4>
-            <a target="_blank" rel="noopener noreferrer" href=""></a>
-        </h4>
-    </section>
-    <section class="article-publication">
-        <span class="article-publisher"></span>
-        <span class="article-bars">||</span>
-        <span class="article-date"></span>
-    </section>
-    <section class="article-exerpt">
-        <p></p>
-    </section>
-</li> -->
