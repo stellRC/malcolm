@@ -438,7 +438,8 @@ h1 {
     justify-content: space-between;
     z-index: 100;
 
-    position: sticky;
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
     top: 0px;
 
 }
@@ -549,7 +550,11 @@ h1 {
 .container-books {
     flex-direction: column;
     position: relative;
-    /* margin-top: 10vh; */
+    padding-top: 10vh;
+}
+
+.articles-main {
+    padding-top: 10vh;
 }
 
 .container-books {
@@ -932,15 +937,15 @@ textarea {
 .hamburger-active {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    /* background-color: var(--dark-gray); */
-    background-color: var(--red);
+    background-color: var(--dark-gray);
+    /* background-color: var(--red); */
 
 
 }
 
 .hamburger-active-span {
     transform: rotate(-45deg) translate(-4px, 3px);
-    background-color: var(--red);
+    background-color: var(--dark-gray);
 
 
 }
@@ -1074,14 +1079,15 @@ textarea {
 
 @media (min-width: 700px) {
     .container-upcoming {
-        flex-direction: row;
+        flex-direction: column;
         width: 100vw;
         justify-content: space-evenly;
     }
 
     .upcoming-left {
         background-size: contain;
-        width: 30vw;
+        width: 50vw;
+        height: 50vh;
     }
 
     .books-grid-img img {
@@ -1117,6 +1123,7 @@ textarea {
        
     }
 
+  
 }
 
 @media (min-width: 1100px) {
@@ -1132,6 +1139,12 @@ textarea {
   
 
     /* #endregion */
+
+    .container-upcoming {
+        flex-direction: row;
+        align-items: center;
+    }
+
 
     .mobile-header {
         background-color: transparent;
