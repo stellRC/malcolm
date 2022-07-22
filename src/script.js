@@ -16,9 +16,12 @@ document.documentElement.style.setProperty('--scroll-padding', navBarHeight - 1 
 hamburger.addEventListener('click', () => {
     mobileNav.classList.toggle('show')
     navBar.classList.toggle('expand')
+
     mobileNav.classList.toggle('translate')
     hamburgerSpan.classList.toggle('hamburger-active')
     hamburgerSpanReverse.classList.toggle('hamburger-active-span')
+
+    navLink.forEach(link => link.classList.toggle('nav-link-color'))
 })
 
 navLink.forEach(link => link.addEventListener('click', () => {
