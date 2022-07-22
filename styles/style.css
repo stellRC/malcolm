@@ -441,6 +441,7 @@ h1 {
     top: 1.3rem;
     right: 2rem;
     z-index: 100;
+    cursor: pointer;
 }
 
 .hamburger-span {
@@ -916,6 +917,10 @@ textarea {
 
 .navbarOffsetMargin {
     padding-bottom: 15vh;
+}
+
+.nav-link-color {
+    color: var(--dark-gray);
 }
 
 .visible {
