@@ -23,7 +23,6 @@ hamburger.addEventListener('click', () => {
 
 navLink.forEach(link => link.addEventListener('click', () => {
     mobileNav.classList.toggle('show')
-
     mobileNav.classList.toggle('translate')
     hamburgerSpan.classList.toggle('hamburger-active')
     hamburgerSpanReverse.classList.toggle('hamburger-active-span')
@@ -65,19 +64,19 @@ navLink.forEach(link => link.addEventListener('click', () => {
 
 // }))
 
-function fixNav() {
-    if (window.scrollY >=topOfNav) {
-        // adds padding so that flow of document resembles before fizxed nav
-        document.body.style.paddingTop = navBar.offsetHeight + 'px';
-        document.body.classList.add('fixed-nav');
-    } else {
-        document.body.style.paddingTop = 0;
-        document.body.classList.remove('fixed-nav');
+// function fixNav() {
+//     if (window.scrollY >=topOfNav) {
+//         // adds padding so that flow of document resembles before fizxed nav
+//         document.body.style.paddingTop = navBar.offsetHeight + 'px';
+//         document.body.classList.add('fixed-nav');
+//     } else {
+//         document.body.style.paddingTop = 0;
+//         document.body.classList.remove('fixed-nav');
 
-    }
-}
+//     }
+// }
 
-window.addEventListener('scroll', fixNav)
+// window.addEventListener('scroll', fixNav)
 
 
 function resizeNav() {
