@@ -287,21 +287,6 @@ h1 {
     color: black;
 }
 
-.book-purchase-btn:hover a {
-    color: antiquewhite;
-}
-
-.book-purchase-btn:hover {
-    background-color: #181717;
-    box-shadow: inset 0px 0 6px var(--red);
-    color: antiquewhite;
-}
-
-.book-purchase:hover {
-    background-color: rgba(255, 255, 255, .15);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-}
 
 /* button a {
     color: black;
@@ -320,9 +305,6 @@ h1 {
 
 }
 
-.article-title a:hover {
-    font-style: italic;
-}
 
 .article-publication span {
     font-size: 18px;
@@ -332,10 +314,7 @@ h1 {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.open-nav:hover {
-    color: antiquewhite;
-    background-color: var(--red);
-}
+
 
 .mainop {
     background-color: var(--red);
@@ -607,9 +586,7 @@ h1 {
     box-shadow: inset 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.publisher-list li:hover {
-    opacity: 1;
-}
+
 
 /* #endregion */
 
@@ -733,13 +710,9 @@ h1 {
     margin-top: 1rem;
 }
 
-.book-purchase-btn:hover {
-    transform: scale(1.1);
-}
 
-.book-purchase:hover {
-    padding: 1rem;
-}
+
+
 
 #afghanistan {
     background-image: url('../img/books/afghanistan-stories.jpg');
@@ -823,18 +796,9 @@ h1 {
    visibility: hidden;
 }
 
-.article-nav:hover {
-    /* height: 615px; */
-    height: 75vh;
-    /* width: 170px; */
-    width: 40vw;
 
-   
-}
 
-.article-nav:hover .mainop {
-    transform: rotate(180deg);
-}
+
 
 .mainop {
     margin: auto;
@@ -1046,6 +1010,60 @@ textarea {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+@media (hover:hover) {
+
+    .book-purchase-btn:hover a {
+        color: antiquewhite;
+    }
+    
+    .book-purchase-btn:hover {
+        background-color: #181717;
+        box-shadow: inset 0px 0 6px var(--red);
+        color: antiquewhite;
+    }
+    
+    .book-purchase:hover {
+        background-color: rgba(255, 255, 255, .15);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+
+    .article-title a:hover {
+        font-style: italic;
+    }
+
+    .open-nav:hover {
+        color: antiquewhite;
+        background-color: var(--red);
+    }
+
+    .publisher-list li:hover {
+        opacity: 1;
+    }
+
+    .book-purchase-btn:hover {
+        transform: scale(1.1);
+    }
+
+    .book-purchase:hover {
+        padding: 1rem;
+    }
+
+    .article-nav:hover .mainop {
+        transform: rotate(180deg);
+    }
+
+    .article-nav:hover {
+        /* height: 615px; */
+        height: 75vh;
+        /* width: 170px; */
+        width: 40vw;
+    
+       
+    }
+
 }
 
 @media ((min-height: 800px)){
