@@ -339,6 +339,13 @@ h1 {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     background-color: var(--red);
 }
+
+.article-nav:hover {
+    /* height: 615px; */
+    height: 75vh;
+    /* width: 170px; */
+    width: 40vw;
+}
 /* #endregion */
 
 /* #endregion */
@@ -1102,13 +1109,6 @@ textarea:-webkit-autofill:focus {
 
     .article-nav:hover .mainop {
         transform: rotate(180deg);
-    }
-
-    .article-nav:hover {
-        /* height: 615px; */
-        height: 75vh;
-        /* width: 170px; */
-        width: 40vw;
     }
 
  
