@@ -336,6 +336,7 @@ h1 {
 .mainop {
     background-color: var(--red);
     color: antiquewhite;
+    font-size: 30px;
 }
 
 .tag,
@@ -833,7 +834,6 @@ h1 {
     position: fixed;
     right: 50px;
     bottom: 50px;
-    outline: 1px solid blue;
 }
 
 .article-nav {
@@ -1099,7 +1099,6 @@ textarea:-webkit-autofill:focus {
 .flex-nav {
     visibility: visible;
     overflow-Y: auto;
-    outline: 1px solid blue;
  }
 
  .flex-nav::-webkit-scrollbar {
@@ -1484,9 +1483,8 @@ textarea:-webkit-autofill:focus {
     .article-nav,
     .article-nav:hover {
         min-height: 75vh;
-        min-width: 15vw;
+        width: 15vw;
         overflow-Y: scroll;
-        outline: 1px solid blue;
     }
 
     .article-nav::-webkit-scrollbar,
