@@ -833,6 +833,7 @@ h1 {
     position: fixed;
     right: 50px;
     bottom: 50px;
+    outline: 1px solid blue;
 }
 
 .article-nav {
@@ -847,7 +848,6 @@ h1 {
     bottom: 50px;
     text-align: center;
     overflow: hidden;
-
     display: flex;
     flex-direction: column;
 
@@ -910,7 +910,7 @@ h1 {
 .form-container {
     width: 80vw;
     margin: 0 auto;
-    height: 40vh;
+    min-height: 40vh;
     /* background-color: var(--header-color); */
     /* opacity: .9; */
 
@@ -924,10 +924,11 @@ h1 {
     /* outline: 1px solid red; */
     width: 20vw;
     /* margin: 0 auto; */
-    height: 50vh;
+    min-height: 50vh;
     justify-content: space-evenly;
 
     padding: 2rem;
+    gap: .2rem;
     box-shadow: inset 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
     display: none;
@@ -1097,6 +1098,12 @@ textarea:-webkit-autofill:focus {
 
 .flex-nav {
     visibility: visible;
+    overflow-Y: auto;
+    outline: 1px solid blue;
+ }
+
+ .flex-nav::-webkit-scrollbar {
+    display: none;
  }
 
 .underline-active::after {
@@ -1476,8 +1483,15 @@ textarea:-webkit-autofill:focus {
 
     .article-nav,
     .article-nav:hover {
-        height: 75vh;
-        width: 15vw;
+        min-height: 75vh;
+        min-width: 15vw;
+        overflow-Y: scroll;
+        outline: 1px solid blue;
+    }
+
+    .article-nav::-webkit-scrollbar,
+    .article-nav:hover::-webkit-scrollbar {
+        display: none;
     }
 
     .article-publication {
@@ -1490,7 +1504,7 @@ textarea:-webkit-autofill:focus {
 
     .form-container {
         width: 80vw;
-        height: 60vh;
+        min-height: 60vh;
 
     }
 
